@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/thomas/.config'
+let g:netrw_dirhist_6='/Users/thomas'
+let g:netrw_dirhist_5='/Users/thomas/.config'
+let g:netrw_dirhist_4='/Users/thomas/.config/xbuild'
+let g:netrw_dirhist_3='/Users/thomas/.config'
+let g:netrw_dirhist_2='/Users/thomas'
+let g:netrw_dirhist_1='/Users/thomas/.config'
+let g:netrw_dirhist_0='/Users/thomas/.home-env'
+let g:netrw_dirhist_9='/Users/thomas'
+let g:netrw_dirhist_8='/Users/thomas/.home-env'
