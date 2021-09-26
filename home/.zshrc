@@ -9,12 +9,7 @@ ZSH_DISABLE_COMPFIX=true
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="satche"
-
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-alias sail="bash vendor/bin/sail"
-eval $(thefuck --alias)
+ZSH_THEME='satche'
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -77,3 +72,15 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export ANDROID_HOME=$HOME/Library/Android/sdk/
 # export PATH=${PATH}:$HOME/Libtary/Android/sdk/platform-tools:$HOME/Library/Android/tools
 # export PATH="/usr/local/sbin:$PATH"
+
+
+# Aliases
+# LS 
+alias ls='exa -F --git'
+alias l='exa -lhF --git'
+alias ll='exa -lahF --git'
+
+# Laravel
+alias sail='bash vendor/bin/sail'
+# The fuck plugin
+eval $(thefuck --alias)
