@@ -69,10 +69,10 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 
 # Android
-# export ANDROID_HOME=$HOME/Library/Android/sdk/
-# export PATH=${PATH}:$HOME/Libtary/Android/sdk/platform-tools:$HOME/Library/Android/tools
-# export PATH="/usr/local/sbin:$PATH"
-
+export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk/
+export PATH=$PATH:$ANDROID_SDK_ROOT/tools/bin
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 
 # Aliases
 # LS 
