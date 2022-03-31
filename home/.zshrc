@@ -1,3 +1,7 @@
+# Fig pre block. Keep at the top of this file.
+export PATH="${PATH}:${HOME}/.local/bin"
+eval "$(fig init zsh pre)"
+
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 ZSH_CUSTOM=$HOME/.env/zsh-custom
@@ -50,7 +54,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
+export PATH="/usr/local/sbin:$PATH"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -67,6 +71,9 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+# Python
+# export PYENV_ROOT="$HOME/.pyenv"
+# export PATH="$PYENV_ROOT/bin:$PATH"
 
 # Android
 export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk/
@@ -84,3 +91,7 @@ alias ll='exa -lahF --git'
 alias sail='bash vendor/bin/sail'
 # The fuck plugin
 eval $(thefuck --alias)
+
+# Fig post block. Keep at the bottom of this file.
+eval "$(fig init zsh post)"
+
