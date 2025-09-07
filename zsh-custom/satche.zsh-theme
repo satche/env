@@ -1,7 +1,7 @@
 PROMPT='%{$fg[green]%}%n%{$fg[white]%}@%{$fg[red]%}%m%{$reset_color%} '
 
 # git in prompt
-# RPROMPT='$(git_prompt_status)%{$reset_color%} $(git_prompt_info)%{$reset_color%}'
+RPROMPT='$(git_prompt_status)%{$reset_color%} $(git_prompt_info)%{$reset_color%}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[white]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
